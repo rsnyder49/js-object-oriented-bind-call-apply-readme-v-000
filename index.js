@@ -39,3 +39,5 @@ greet.call(sally, 'Terry', 'George');
 greet.call(sally);
 // Hi undefined and undefined, my name is Sally!
 
+greet.apply(sally, ['Terry', 'George']);
+// Hi Terry and George, my name is Sally!
