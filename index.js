@@ -55,3 +55,6 @@ newGreet('Bob');
  
 greet('Bob');
 // Hi Bob, my name is !
+
+greet.bind(sally)('Bob');
+// Hi Bob, my name is Sally!
