@@ -103,6 +103,9 @@ class User {
             function(word) {
                 return this.interests.includes(word);
             }.bind(this) // added to the and of the callback function
+            //can be rewritten as: matchInterests(event) {
+//   return event.keywords.some(word => this.interests.includes(word));
+// }
         );
     }
 }
